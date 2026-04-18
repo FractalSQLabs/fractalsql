@@ -1,0 +1,24 @@
+# Build artifacts
+*.so
+*.o
+*.bc
+*.a
+*.dylib
+
+# NOTE: include/sfs_core_bc.h is a tracked source file in this repo
+# (pre-compiled LuaJIT bytecode). Do not add it to this ignore list.
+
+# PGXS-generated files
+fractalsql--*.sql.in
+libfractalsql.pc
+results/
+tmp_check/
+regression.diffs
+regression.out
+dist/
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
